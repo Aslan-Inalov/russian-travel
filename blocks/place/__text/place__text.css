@@ -1,0 +1,12 @@
+.place__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+}
+
+@media (max-width: 425px) {
+  .place__text {
+    margin: 0 auto;
+    max-width: calc(100% - 32px);
+  }
+}
